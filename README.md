@@ -26,6 +26,10 @@ Use Double-FW meanings for Double-FW methods within their adopted scope. Externa
 
 ## Publication and rights
 
-This is a repository-ready package, not a newly published GitHub repository or Hugging Face dataset. Existing repositories remain independent of it. No scheduled service is installed.
+This material is published in the Double-FW Terminology-and-Principles GitHub repository. Existing repositories remain independent of it. A weekly/manual Hugging Face publisher is supplied; it requires the destination variable, token secret and a successful run before live dataset publication is established.
 
 Original material is MIT under [LICENSE](LICENSE). Read [NOTICE](NOTICE.md) for third-party boundaries. Owner contributions and editorial notes are separately identified.
+
+## Hugging Face publication
+
+The destination is [Accessibility and Inclusion Principles, Concepts and Terminology](https://huggingface.co/datasets/GarethFW/Accessibility_and_Inclusion_Principles_Concepts_and_Terminology). Read [the step-by-step setup](huggingface/SETUP.md). The export preserves canonical records, review states, approval scope and required context. It does not duplicate the generated glossary pages, scan other repositories for changes, approve definitions or train a model.
