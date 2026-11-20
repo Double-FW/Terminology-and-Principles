@@ -1,0 +1,35 @@
+{
+  "source_repository": "Double-FW/Terminology-and-Principles",
+  "destination_dataset": "GarethFW/Accessibility_and_Inclusion_Principles_Concepts_and_Terminology",
+  "dataset_version": "0.1.0",
+  "document_files": [
+    "AGENTS.md",
+    "README.md",
+    "GOVERNANCE.md",
+    "NOTICE.md",
+    "CONTRIBUTING.md",
+    "review/DECISIONS.md",
+    "review/OWNER_DECISIONS_2026-11-20.md",
+    "frameworks/Agentic_Proposal_Catalogue.md",
+    "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+    "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md"
+  ],
+  "source_files": [
+    "AGENTS.md",
+    "README.md",
+    "GOVERNANCE.md",
+    "NOTICE.md",
+    "CONTRIBUTING.md",
+    "review/DECISIONS.md",
+    "review/OWNER_DECISIONS_2026-11-20.md",
+    "frameworks/Agentic_Proposal_Catalogue.md",
+    "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+    "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+    "data/terms.jsonl",
+    "data/term.schema.json",
+    "data/agentic-criteria.json",
+    "review/decisions.json",
+    "LICENSE"
+  ],
+  "approved_license_sha256": "718328364da5d7ba8e2fe2b00e16126f46714ef2d2e9d16b04cf2706d48142f1"
+}

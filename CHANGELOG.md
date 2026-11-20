@@ -1,5 +1,13 @@
 # Changes
 
+## Hugging Face publication setup — 20 November 2026
+
+- Added a fixed-destination weekly/manual publisher for the owner-requested terminology dataset.
+- Exported canonical term records and their full qualifications, selected governing documents and separately labelled agentic proposals.
+- Excluded generated glossary duplicates and discovery inventories from content streams.
+- Added committed-source/approval checks, deterministic exports and parent-revision-guarded destination updates.
+- Source visibility, token access, repository settings and actual publication must be verified separately.
+
 ## 0.2.0 — 20 November 2026 — owner decisions and agentic proposal
 
 - Recorded D01–D05, D07 and D08 approvals and the replacement definition for D06.
