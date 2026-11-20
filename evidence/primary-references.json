@@ -1,0 +1,86 @@
+{
+  "retrieved": [
+    {
+      "id": "wai",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved"
+    },
+    {
+      "id": "wcag22",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved"
+    },
+    {
+      "id": "understanding",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/intro",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved"
+    },
+    {
+      "id": "act",
+      "url": "https://www.w3.org/WAI/standards-guidelines/act/",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved"
+    },
+    {
+      "id": "mcp",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved"
+    },
+    {
+      "id": "wcag-parsing",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/parsing.html",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved",
+      "scope": "specific explanatory comparison; pinned MCP 2025-06-18 is not claimed as latest protocol edition"
+    },
+    {
+      "id": "wcag-name-role-value",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved",
+      "scope": "specific explanatory comparison; pinned MCP 2025-06-18 is not claimed as latest protocol edition"
+    },
+    {
+      "id": "wcag-status",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved",
+      "scope": "specific explanatory comparison; pinned MCP 2025-06-18 is not claimed as latest protocol edition"
+    },
+    {
+      "id": "mcp-cancellation-pinned",
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/utilities/cancellation",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved",
+      "scope": "specific explanatory comparison; pinned MCP 2025-06-18 is not claimed as latest protocol edition"
+    },
+    {
+      "id": "mcp-architecture-pinned",
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/architecture",
+      "accessed": "2026-11-20",
+      "status": "content_retrieved",
+      "scope": "specific explanatory comparison; pinned MCP 2025-06-18 is not claimed as latest protocol edition"
+    }
+  ],
+  "candidate_legal_locators": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng",
+      "retrieval_status": "automated_request_returned_bot_verification_page; substantive_text_not_retrieved",
+      "legal_currency_review": false
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng",
+      "retrieval_status": "automated_request_returned_bot_verification_page; substantive_text_not_retrieved",
+      "legal_currency_review": false
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "retrieval_status": "automated_request_returned_bot_verification_page; substantive_text_not_retrieved",
+      "legal_currency_review": false
+    }
+  ]
+}

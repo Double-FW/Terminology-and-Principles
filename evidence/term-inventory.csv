@@ -1,0 +1,169 @@
+term_id,term,literal_document_count,literal_repository_count,status
+DFW-T0001,Accessibility,217,27,candidate_usage_inventory_not_definition_validation
+DFW-T0002,Inclusion,92,20,candidate_usage_inventory_not_definition_validation
+DFW-T0003,Usability,87,20,candidate_usage_inventory_not_definition_validation
+DFW-T0004,Inclusive design,45,18,candidate_usage_inventory_not_definition_validation
+DFW-T0005,Universal design,8,4,candidate_usage_inventory_not_definition_validation
+DFW-T0006,Comparable experience,23,10,candidate_usage_inventory_not_definition_validation
+DFW-T0007,Equivalent experience,24,10,candidate_usage_inventory_not_definition_validation
+DFW-T0008,Access need,7,6,candidate_usage_inventory_not_definition_validation
+DFW-T0009,Preference,82,22,candidate_usage_inventory_not_definition_validation
+DFW-T0010,Agency,33,14,candidate_usage_inventory_not_definition_validation
+DFW-T0011,Autonomy,36,16,candidate_usage_inventory_not_definition_validation
+DFW-T0012,Dignity,78,20,candidate_usage_inventory_not_definition_validation
+DFW-T0013,Participation,188,26,candidate_usage_inventory_not_definition_validation
+DFW-T0014,Barrier,164,25,candidate_usage_inventory_not_definition_validation
+DFW-T0015,Medical model,2,1,candidate_usage_inventory_not_definition_validation
+DFW-T0016,Social model,4,2,candidate_usage_inventory_not_definition_validation
+DFW-T0017,Apparent disability,7,1,candidate_usage_inventory_not_definition_validation
+DFW-T0018,Non-apparent disability,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0019,Fluctuating access needs,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0020,Situational barrier,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0021,Environmental barrier,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0022,Customer experience (CX),30,15,candidate_usage_inventory_not_definition_validation
+DFW-T0023,User experience (UX),89,19,candidate_usage_inventory_not_definition_validation
+DFW-T0024,Satisfactory,19,8,candidate_usage_inventory_not_definition_validation
+DFW-T0025,Satisfaction,128,23,candidate_usage_inventory_not_definition_validation
+DFW-T0026,Brand promise,12,5,candidate_usage_inventory_not_definition_validation
+DFW-T0027,Brand values,15,6,candidate_usage_inventory_not_definition_validation
+DFW-T0028,Feeling Seen,8,4,candidate_usage_inventory_not_definition_validation
+DFW-T0029,Feeling Capable,6,2,candidate_usage_inventory_not_definition_validation
+DFW-T0030,Feeling Confident,6,2,candidate_usage_inventory_not_definition_validation
+DFW-T0031,Feeling Safe,6,2,candidate_usage_inventory_not_definition_validation
+DFW-T0032,Feeling Valued,7,3,candidate_usage_inventory_not_definition_validation
+DFW-T0033,Task completion,55,17,candidate_usage_inventory_not_definition_validation
+DFW-T0034,Task time,6,4,candidate_usage_inventory_not_definition_validation
+DFW-T0035,Navigation,102,24,candidate_usage_inventory_not_definition_validation
+DFW-T0036,Content consumption,6,3,candidate_usage_inventory_not_definition_validation
+DFW-T0037,User preference support,3,1,candidate_usage_inventory_not_definition_validation
+DFW-T0038,Engagement,41,15,candidate_usage_inventory_not_definition_validation
+DFW-T0039,Recovery,153,26,candidate_usage_inventory_not_definition_validation
+DFW-T0040,Continuity,62,17,candidate_usage_inventory_not_definition_validation
+DFW-T0041,Emotional equity,2,1,candidate_usage_inventory_not_definition_validation
+DFW-T0042,Cognitive accessibility,10,6,candidate_usage_inventory_not_definition_validation
+DFW-T0043,Cognitive load,16,5,candidate_usage_inventory_not_definition_validation
+DFW-T0044,Recognition rather than recall,5,3,candidate_usage_inventory_not_definition_validation
+DFW-T0045,Learnability,3,2,candidate_usage_inventory_not_definition_validation
+DFW-T0046,Assistive technology (AT),189,27,candidate_usage_inventory_not_definition_validation
+DFW-T0047,Accessibility tree,7,4,candidate_usage_inventory_not_definition_validation
+DFW-T0048,Semantic structure,11,6,candidate_usage_inventory_not_definition_validation
+DFW-T0049,Alternative text,16,6,candidate_usage_inventory_not_definition_validation
+DFW-T0050,UX design system,3,3,candidate_usage_inventory_not_definition_validation
+DFW-T0051,Accessible branding system,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0052,Design foundation,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0053,Component,77,19,candidate_usage_inventory_not_definition_validation
+DFW-T0054,Pattern,74,21,candidate_usage_inventory_not_definition_validation
+DFW-T0055,Complete journey,8,6,candidate_usage_inventory_not_definition_validation
+DFW-T0056,Progressive enhancement,8,4,candidate_usage_inventory_not_definition_validation
+DFW-T0057,Synchronistic Design,13,6,candidate_usage_inventory_not_definition_validation
+DFW-T0058,Evidence,366,27,candidate_usage_inventory_not_definition_validation
+DFW-T0059,Provenance,79,22,candidate_usage_inventory_not_definition_validation
+DFW-T0060,Observation,59,22,candidate_usage_inventory_not_definition_validation
+DFW-T0061,Hypothesis,33,12,candidate_usage_inventory_not_definition_validation
+DFW-T0062,Estimate,53,9,candidate_usage_inventory_not_definition_validation
+DFW-T0063,Synthetic example,5,2,candidate_usage_inventory_not_definition_validation
+DFW-T0064,Persona,21,9,candidate_usage_inventory_not_definition_validation
+DFW-T0065,Functional profile,2,1,candidate_usage_inventory_not_definition_validation
+DFW-T0066,Denominator,49,14,candidate_usage_inventory_not_definition_validation
+DFW-T0067,Validation,130,25,candidate_usage_inventory_not_definition_validation
+DFW-T0068,Traceability,37,18,candidate_usage_inventory_not_definition_validation
+DFW-T0069,Source currency,7,5,candidate_usage_inventory_not_definition_validation
+DFW-T0070,Unknown,90,26,candidate_usage_inventory_not_definition_validation
+DFW-T0071,Not tested,24,6,candidate_usage_inventory_not_definition_validation
+DFW-T0072,Not applicable,50,15,candidate_usage_inventory_not_definition_validation
+DFW-T0073,Manual testing,4,3,candidate_usage_inventory_not_definition_validation
+DFW-T0074,Automated testing,7,5,candidate_usage_inventory_not_definition_validation
+DFW-T0075,Assisted testing,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0076,ACT-style test,3,2,candidate_usage_inventory_not_definition_validation
+DFW-T0077,Regression,41,17,candidate_usage_inventory_not_definition_validation
+DFW-T0078,Test coverage,5,4,candidate_usage_inventory_not_definition_validation
+DFW-T0079,Approved commitment,7,2,candidate_usage_inventory_not_definition_validation
+DFW-T0080,Proposed practice,20,2,candidate_usage_inventory_not_definition_validation
+DFW-T0081,Accountability,61,19,candidate_usage_inventory_not_definition_validation
+DFW-T0082,Responsibility,72,22,candidate_usage_inventory_not_definition_validation
+DFW-T0083,RACI,18,9,candidate_usage_inventory_not_definition_validation
+DFW-T0084,Human oversight,15,7,candidate_usage_inventory_not_definition_validation
+DFW-T0085,Accessibility maturity,26,12,candidate_usage_inventory_not_definition_validation
+DFW-T0086,AI-ready accessibility maturity model,4,2,candidate_usage_inventory_not_definition_validation
+DFW-T0087,"Environmental, Social and Governance (ESG)",22,7,candidate_usage_inventory_not_definition_validation
+DFW-T0088,Complaints governance,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0089,Accessibility champions network,6,4,candidate_usage_inventory_not_definition_validation
+DFW-T0090,Job crafting,6,1,candidate_usage_inventory_not_definition_validation
+DFW-T0091,Runbook,29,5,candidate_usage_inventory_not_definition_validation
+DFW-T0092,AI agent,7,7,candidate_usage_inventory_not_definition_validation
+DFW-T0093,Agentic workflow,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0094,Retrieval-augmented generation (RAG),35,19,candidate_usage_inventory_not_definition_validation
+DFW-T0095,Knowledge base,33,15,candidate_usage_inventory_not_definition_validation
+DFW-T0096,Training dataset,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0097,Dataset card,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0098,Source revision,8,7,candidate_usage_inventory_not_definition_validation
+DFW-T0099,Normative instruction,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0100,Audio description (AD),29,9,candidate_usage_inventory_not_definition_validation
+DFW-T0101,Captions,73,20,candidate_usage_inventory_not_definition_validation
+DFW-T0102,Subtitles,25,11,candidate_usage_inventory_not_definition_validation
+DFW-T0103,Transcript,43,15,candidate_usage_inventory_not_definition_validation
+DFW-T0104,Extended reality (XR),0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0105,Game accessibility,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0106,Accessible typography,11,4,candidate_usage_inventory_not_definition_validation
+DFW-T0107,Accessible chart,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0108,POURS,17,5,candidate_usage_inventory_not_definition_validation
+DFW-T0109,Customer,152,19,candidate_usage_inventory_not_definition_validation
+DFW-T0110,Research participant,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0111,User,179,27,candidate_usage_inventory_not_definition_validation
+DFW-T0112,Legal applicability,29,12,candidate_usage_inventory_not_definition_validation
+DFW-T0113,Applicable obligation,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0114,Executive commitment,4,3,candidate_usage_inventory_not_definition_validation
+DFW-T0115,Regulatory delivery map,0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0116,AVMSD,21,4,candidate_usage_inventory_not_definition_validation
+DFW-T0117,CP-01: Standard Elements,4,1,candidate_usage_inventory_not_definition_validation
+DFW-T0118,CP-02: Affordances and Signifiers,4,1,candidate_usage_inventory_not_definition_validation
+DFW-T0119,CP-03: Simplicity,5,1,candidate_usage_inventory_not_definition_validation
+DFW-T0120,CP-04: Clear Communication,4,1,candidate_usage_inventory_not_definition_validation
+DFW-T0121,CP-05: Redundancies,3,1,candidate_usage_inventory_not_definition_validation
+DFW-T0122,CP-06: Patterns,3,1,candidate_usage_inventory_not_definition_validation
+DFW-T0123,CP-07: Recognition Rather than Recall,6,1,candidate_usage_inventory_not_definition_validation
+DFW-T0124,CP-08: Variable Stimuli and the Pop-Out Effect,2,1,candidate_usage_inventory_not_definition_validation
+DFW-T0125,CP-09: Feedback and Notification,6,1,candidate_usage_inventory_not_definition_validation
+DFW-T0126,CP-10: User Control and Choice,7,1,candidate_usage_inventory_not_definition_validation
+DFW-T0127,IDSO-01: Perception,4,2,candidate_usage_inventory_not_definition_validation
+DFW-T0128,IDSO-02: Meaning,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0129,IDSO-03: Operation,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0130,IDSO-04: Navigation,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0131,IDSO-05: Understanding,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0132,IDSO-06: Technology/settings,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0133,IDSO-07: Safety,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0134,IDSO-08: Support,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0135,IDSO-09: Accurate completion,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0136,IDSO-10: Effort/time,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0137,IDSO-11: Recovery,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0138,IDSO-12: Autonomy,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0139,IDSO-13: Privacy/security/consent,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0140,IDSO-14: Equivalent service,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0141,IDSO-15: Continuity,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0142,IDSO-16: Confidence/control,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0143,IDSO-17: Dignity,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0144,IDSO-18: Satisfaction,2,2,candidate_usage_inventory_not_definition_validation
+DFW-T0145,IDSO-19: Collaboration,1,1,candidate_usage_inventory_not_definition_validation
+DFW-T0146,"IDSO-20: Enjoyment, where material",3,2,candidate_usage_inventory_not_definition_validation
+DFW-T0147,WCAG,89,22,candidate_usage_inventory_not_definition_validation
+DFW-T0148,POUR,35,15,candidate_usage_inventory_not_definition_validation
+DFW-T0149,Perceivable,43,15,candidate_usage_inventory_not_definition_validation
+DFW-T0150,Operable,40,17,candidate_usage_inventory_not_definition_validation
+DFW-T0151,Understandable,84,24,candidate_usage_inventory_not_definition_validation
+DFW-T0152,Robust (WCAG),0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0153,Conformance,85,24,candidate_usage_inventory_not_definition_validation
+DFW-T0154,Success criterion,5,3,candidate_usage_inventory_not_definition_validation
+DFW-T0155,ACT (W3C),0,0,candidate_usage_inventory_not_definition_validation
+DFW-T0156,Model Context Protocol (MCP),6,3,candidate_usage_inventory_not_definition_validation
+DFW-T0157,Agentic Robustness,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0158,LGIR,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0159,Legible (agentic),,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0160,Governable (agentic),,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0161,Interpretable (agentic),,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0162,Epistemic and data integrity,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0163,"Capability, Intent, State",,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0164,Graceful degradation,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0165,Cross-model portability,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0166,Human-agent co-agency resilience,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0167,Reversible agency,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus
+DFW-T0168,Calibrated uncertainty,,,new_owner_contribution_not_rescanned_against_2026-11-20_corpus

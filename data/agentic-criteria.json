@@ -1,0 +1,491 @@
+{
+  "status": "owner_proposed_framework_unvalidated",
+  "relationship": "two overlapping views; not independent requirements or formal equivalence",
+  "criteria": [
+    {
+      "id": "DFW-AR-1.1",
+      "view": "DFW-AR",
+      "group": "Guideline 1: Epistemic & Data Integrity (Robustness of Training & Context Data)",
+      "source_number": "1.1",
+      "title": "Provenance & Grounding",
+      "supplied_wording": "All ingested knowledge, retrieval-augmented context (RAG), and training inputs must carry verifiable metadata regarding source, recency, and confidence level, preventing agents from treating stale or unverified data as deterministic truth.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-1.1",
+        "DFW-LGIR-4.1"
+      ]
+    },
+    {
+      "id": "DFW-AR-1.2",
+      "view": "DFW-AR",
+      "group": "Guideline 1: Epistemic & Data Integrity (Robustness of Training & Context Data)",
+      "source_number": "1.2",
+      "title": "Distribution & Edge-Case Resilience",
+      "supplied_wording": "Models and retrieval pipelines must be evaluated against out-of-distribution inputs, adversarial prompt injections, and ambiguous phrasing so edge cases trigger graceful uncertainty rather than confident hallucination.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-3.2",
+        "DFW-LGIR-4.1"
+      ]
+    },
+    {
+      "id": "DFW-AR-2.1",
+      "view": "DFW-AR",
+      "group": "Guideline 2: Execution & Architectural Compatibility (Robustness of Implementation)",
+      "source_number": "2.1",
+      "title": "Capability, Intent, State",
+      "supplied_wording": "Every tool, API, and sub-agent action must programmatically expose its exact schema (capability), expected outcome (intent), and real-time execution status (state) using open, model-agnostic protocols (such as MCP or OpenAPI) rather than brittle prompt hacks.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-1.2",
+        "DFW-LGIR-4.2"
+      ]
+    },
+    {
+      "id": "DFW-AR-2.2",
+      "view": "DFW-AR",
+      "group": "Guideline 2: Execution & Architectural Compatibility (Robustness of Implementation)",
+      "source_number": "2.2",
+      "title": "Deterministic Guardrails & Graceful Degradation",
+      "supplied_wording": "When a tool fails, an API times out, or confidence drops below threshold, the system must fail safely—preserving state, rolling back partial side effects, and falling back to deterministic logic or human escalation without corrupting downstream workflows.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-2.1",
+        "DFW-LGIR-2.3",
+        "DFW-LGIR-4.2",
+        "DFW-LGIR-4.3"
+      ]
+    },
+    {
+      "id": "DFW-AR-2.3",
+      "view": "DFW-AR",
+      "group": "Guideline 2: Execution & Architectural Compatibility (Robustness of Implementation)",
+      "source_number": "2.3",
+      "title": "Cross-Model Portability",
+      "supplied_wording": "Core business logic and state management must remain decoupled from specific foundation model quirks so the experience remains stable when swapped across different model providers or future versions.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-4.2"
+      ]
+    },
+    {
+      "id": "DFW-AR-3.1",
+      "view": "DFW-AR",
+      "group": "Guideline 3: Human-Agent Legibility & Co-Agency (Robustness of Assisted Human Experiences)",
+      "source_number": "3.1",
+      "title": "Ambient State & Reasoning Transparency",
+      "supplied_wording": "Background actions, tool calls, and autonomous decisions must surface clear, real-time status updates and inspectable audit trails without hijacking the human’s primary workflow or cognitive focus.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-1.3",
+        "DFW-LGIR-3.1",
+        "DFW-LGIR-4.3"
+      ]
+    },
+    {
+      "id": "DFW-AR-3.2",
+      "view": "DFW-AR",
+      "group": "Guideline 3: Human-Agent Legibility & Co-Agency (Robustness of Assisted Human Experiences)",
+      "source_number": "3.2",
+      "title": "Reversible Agency & Intervention Hooks",
+      "supplied_wording": "Any action with real-world consequences must expose an explicit, accessible mechanism for the human to pause, override, modify parameters, or undo execution before or immediately after commitment.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-2.1",
+        "DFW-LGIR-2.2",
+        "DFW-LGIR-2.3",
+        "DFW-LGIR-4.3"
+      ]
+    },
+    {
+      "id": "DFW-AR-3.3",
+      "view": "DFW-AR",
+      "group": "Guideline 3: Human-Agent Legibility & Co-Agency (Robustness of Assisted Human Experiences)",
+      "source_number": "3.3",
+      "title": "Adaptive Calibration",
+      "supplied_wording": "The interface must communicate uncertainty and risk proportionally, requiring active human confirmation for high-stakes or ambiguous actions while allowing low-risk tasks to execute smoothly.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-LGIR-3.1",
+        "DFW-LGIR-3.2",
+        "DFW-LGIR-3.3"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-1.1",
+      "view": "DFW-LGIR",
+      "group": "Principle 1: Legible (Equivalent to Perceivable)",
+      "source_number": "1.1",
+      "title": "Agentic Attribution & Provenance",
+      "supplied_wording": "Outputs generated, synthesized, or modified by an agent must be visually and programmatically distinguishable from deterministic system states and human-authored content, with direct links to underlying source data.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-1.1"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-1.2",
+      "view": "DFW-LGIR",
+      "group": "Principle 1: Legible (Equivalent to Perceivable)",
+      "source_number": "1.2",
+      "title": "Scope & Capability Signaling",
+      "supplied_wording": "Before delegation, the interface must clearly expose what tools, permissions, and context the agent can currently access (and what it cannot see).",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-2.1"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-1.3",
+      "view": "DFW-LGIR",
+      "group": "Principle 1: Legible (Equivalent to Perceivable)",
+      "source_number": "1.3",
+      "title": "Ambient Status & Multi-Modal Feedback",
+      "supplied_wording": "Long-running or background agent tasks must communicate live progress, waiting states, and completion through non-intrusive status indicators that work across visual, auditory, and assistive interfaces.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-3.1"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-2.1",
+      "view": "DFW-LGIR",
+      "group": "Principle 2: Governable (Equivalent to Operable)",
+      "source_number": "2.1",
+      "title": "Interruptibility & Kill-Switches",
+      "supplied_wording": "Every active agent execution loop must provide an immediate, low-latency mechanism to pause, cancel, or take over manual control without losing prior valid work.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-2.2",
+        "DFW-AR-3.2"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-2.2",
+      "view": "DFW-LGIR",
+      "group": "Principle 2: Governable (Equivalent to Operable)",
+      "source_number": "2.2",
+      "title": "Granular Permission & Blast-Radius Control",
+      "supplied_wording": "Users must be able to define clear autonomy boundaries—specifying which actions can execute automatically, which require explicit approval, and hard limits on spending, data writes, or external communications.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-3.2"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-2.3",
+      "view": "DFW-LGIR",
+      "group": "Principle 2: Governable (Equivalent to Operable)",
+      "source_number": "2.3",
+      "title": "Reversible Agency & Checkpoints",
+      "supplied_wording": "State-changing actions executed by an agent must automatically create state checkpoints, allowing the human to inspect diffs and roll back single steps or entire sessions cleanly.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-2.2",
+        "DFW-AR-3.2"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-3.1",
+      "view": "DFW-LGIR",
+      "group": "Principle 3: Interpretable (Equivalent to Understandable)",
+      "source_number": "3.1",
+      "title": "Intent Preview & Plan Inspection",
+      "supplied_wording": "For multi-step or high-impact tasks, the agent must articulate its proposed plan and expected side effects in plain language *before* committing irreversible actions.",
+      "supplied_level_label": "Level A",
+      "proposed_local_tiers": [
+        "A"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-3.1",
+        "DFW-AR-3.3"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-3.2",
+      "view": "DFW-LGIR",
+      "group": "Principle 3: Interpretable (Equivalent to Understandable)",
+      "source_number": "3.2",
+      "title": "Calibrated Confidence & Uncertainty Signaling",
+      "supplied_wording": "The interface must surface when the agent is operating on low-confidence retrieval, ambiguous instructions, or missing data—prompting human clarification rather than guessing silently.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-1.2",
+        "DFW-AR-3.3"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-3.3",
+      "view": "DFW-LGIR",
+      "group": "Principle 3: Interpretable (Equivalent to Understandable)",
+      "source_number": "3.3",
+      "title": "Predictable Policy & Behavioral Consistency",
+      "supplied_wording": "Agents must adhere consistently to declared system rules and user preferences across sessions, surfacing an explicit explanation whenever a constraint prevents it from fulfilling a request.",
+      "supplied_level_label": "Level AA",
+      "proposed_local_tiers": [
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": null,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-3.3"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-4.1",
+      "view": "DFW-LGIR",
+      "group": "Principle 4: Robust (Equivalent to Robust)",
+      "source_number": "4.1",
+      "title": "Epistemic & Data Integrity",
+      "supplied_wording": "Training sets, RAG indexes, and runtime context must enforce provenance, freshness metadata, and adversarial input sanitization so edge cases produce safe uncertainty rather than corrupted reasoning.",
+      "supplied_level_label": "Level A / AA",
+      "proposed_local_tiers": [
+        "A",
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": false,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-1.1",
+        "DFW-AR-1.2"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-4.2",
+      "view": "DFW-LGIR",
+      "group": "Principle 4: Robust (Equivalent to Robust)",
+      "source_number": "4.2",
+      "title": "Execution & Architectural Compatibility",
+      "supplied_wording": "Tools, APIs, and state machines must use open, model-agnostic schemas (*Capability, Intent, State*) with deterministic fallbacks and transactional rollbacks, ensuring stability across model upgrades or provider swaps.",
+      "supplied_level_label": "Level A / AA",
+      "proposed_local_tiers": [
+        "A",
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": false,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-2.1",
+        "DFW-AR-2.2",
+        "DFW-AR-2.3"
+      ]
+    },
+    {
+      "id": "DFW-LGIR-4.3",
+      "view": "DFW-LGIR",
+      "group": "Principle 4: Robust (Equivalent to Robust)",
+      "source_number": "4.3",
+      "title": "Human-Agent Co-Agency Resilience",
+      "supplied_wording": "The human-in-the-loop layer must gracefully handle latency, partial failures, and shifting autonomy levels—ensuring human oversight remains effective even as agent speed and complexity scale.",
+      "supplied_level_label": "Level A / AA",
+      "proposed_local_tiers": [
+        "A",
+        "AA"
+      ],
+      "status": "owner_proposed_framework_unvalidated",
+      "wcag_equivalence": false,
+      "conformance_scheme_defined": false,
+      "tier_split_defined": false,
+      "source_path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+      "source_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+      "implementation_notes_path": "frameworks/Agentic_Robustness_and_LGIR_Notes.md",
+      "qualification": "Local provisional A/AA labels only; retain implementation notes on provenance/uncertainty, accessible role-based transparency, bounded intervention and recovery, tested fallbacks and model-change evaluation. No measured pass/fail, validated conformance or deployed control is asserted.",
+      "overlaps": [
+        "DFW-AR-2.2",
+        "DFW-AR-3.1",
+        "DFW-AR-3.2"
+      ]
+    }
+  ]
+}

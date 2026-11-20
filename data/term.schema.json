@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Double-FW proposed terminology record",
+  "type": "object",
+  "required": [
+    "id",
+    "term",
+    "category",
+    "definition",
+    "definition_type",
+    "review_status",
+    "adopted",
+    "scope",
+    "distinctions_and_limits",
+    "example",
+    "sources",
+    "related_terms",
+    "created",
+    "last_editorial_review",
+    "approved_by",
+    "approval_date",
+    "record_version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^DFW-T[0-9]{4}$"
+    },
+    "term": {
+      "type": "string",
+      "minLength": 1
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "definition_type": {
+      "enum": [
+        "source_grounded_synthesis",
+        "double_fw_framework",
+        "external_paraphrase",
+        "external_reference_orientation",
+        "proposed_cross_repository_convention",
+        "owner_supplied_definition"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "proposed_for_owner_review",
+        "approved",
+        "disputed",
+        "deprecated"
+      ]
+    },
+    "adopted": {
+      "type": "boolean"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "relationship"
+        ]
+      }
+    },
+    "related_terms": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^DFW-T[0-9]{4}$"
+      }
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approval_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scope": {
+      "type": "string"
+    },
+    "distinctions_and_limits": {
+      "type": "string"
+    },
+    "example": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_editorial_review": {
+      "type": "string",
+      "format": "date"
+    },
+    "record_version": {
+      "type": "string"
+    },
+    "approval_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

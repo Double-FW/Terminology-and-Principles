@@ -1,0 +1,440 @@
+[
+  {
+    "id": "D01",
+    "title": "Satisfactory, Satisfaction and POURS",
+    "finding": "The current POURS guide uses Satisfactory for the additional principle. The Little Book also contains a source titled POUR + S (Satisfaction). This is an observed naming variation; it does not establish that both sources have identical scope.",
+    "proposal": "Use Satisfactory for the proposed principle and satisfaction for the experience assessment. Preserve historical titles; add scoped explanations rather than silently renaming source passages.",
+    "sources": [
+      {
+        "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+        "commit": "0410091af93053783ff8594f4404be1bf721f407",
+        "path": "POURS_Access_Experience_and_Brand_Promise.md",
+        "blob_sha": "a07d54a9b29bbe0c6303e06996cf27af147d61ab",
+        "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/POURS_Access_Experience_and_Brand_Promise.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 62,
+          "heading": "Satisfactory as a fifth proposed principle",
+          "excerpt": "## Satisfactory as a fifth proposed principle",
+          "matched_text": "Satisfactory as a fifth",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/The-Little-Book-of-Accessibility",
+        "commit": "abe43b9a611be93d77da01deeeb80874311b122e",
+        "path": "Knowledge Base Documents/Enterprise Accessibility Proactive Strategy Using POURS.md",
+        "blob_sha": "55e0055872f3f41eb0090d22546d873f0b50e743",
+        "url": "https://github.com/Double-FW/The-Little-Book-of-Accessibility/blob/abe43b9a611be93d77da01deeeb80874311b122e/Knowledge%20Base%20Documents/Enterprise%20Accessibility%20Proactive%20Strategy%20Using%20POURS.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 201,
+          "heading": "Satisfaction (The Fifth Overarching Principle)",
+          "excerpt": "# Satisfaction (The Fifth Overarching Principle)",
+          "matched_text": "Satisfaction (The Fifth",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  },
+  {
+    "id": "D02",
+    "title": "Comparable and equivalent experience",
+    "finding": "The Little Book governance map uses comparable experience. Synchronistic Design explains equivalent experience in terms of preserved meaning and value. Both reject identical interfaces as the objective; their use substantially overlaps.",
+    "proposal": "Keep both terms and require a stated comparison across outcomes, effort, privacy, availability, control and dignity. Do not invent an absolute universal distinction or replace every occurrence.",
+    "sources": [
+      {
+        "repository": "Double-FW/The-Little-Book-of-Accessibility",
+        "commit": "abe43b9a611be93d77da01deeeb80874311b122e",
+        "path": "Little_Book_Organisational_Agent_and_Workflow_Governance_Map.md",
+        "blob_sha": "1a4f7de56b6e73605c658826731b670abf4e1bc6",
+        "url": "https://github.com/Double-FW/The-Little-Book-of-Accessibility/blob/abe43b9a611be93d77da01deeeb80874311b122e/Little_Book_Organisational_Agent_and_Workflow_Governance_Map.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 45,
+          "heading": "2. Shared reasoning foundation",
+          "excerpt": "Comparable experience means a fair opportunity to achieve the intended outcome with appropriate quality, control, dignity and effort. It does not require identical interfaces, techniques or completion times. Disabled people's participation supplies knowledge and challenge; agent-generated personas or simulated users cannot replace it.",
+          "matched_text": "Comparable experience means",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/Synchronistic-Design-Formal-Operating-Model",
+        "commit": "8d3caf35eedc71c423f32c77947e3eb862066f61",
+        "path": "Synchronistic_Design_Principles.md",
+        "blob_sha": "cc0859f2bda856f3ceb65c294bc328c2cae4744e",
+        "url": "https://github.com/Double-FW/Synchronistic-Design-Formal-Operating-Model/blob/8d3caf35eedc71c423f32c77947e3eb862066f61/Synchronistic_Design_Principles.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 85,
+          "heading": "5. Design for equivalent experience",
+          "excerpt": "Equivalent does not mean identical.",
+          "matched_text": "Equivalent does not mean identical",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  },
+  {
+    "id": "D03",
+    "title": "Feelings as research lenses rather than assigned outcomes",
+    "finding": "The current POURS guide retains the five emotional descriptions and explicitly qualifies them as intended qualities rather than feelings assigned to all users. Older essay wording uses stronger universal language.",
+    "proposal": "Retain all five labels. Carry the current qualifications whenever summarising the emotional lens; do not interpret historical rhetoric as measured evidence.",
+    "sources": [
+      {
+        "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+        "commit": "0410091af93053783ff8594f4404be1bf721f407",
+        "path": "POURS_Access_Experience_and_Brand_Promise.md",
+        "blob_sha": "a07d54a9b29bbe0c6303e06996cf27af147d61ab",
+        "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/POURS_Access_Experience_and_Brand_Promise.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 31,
+          "heading": "The five emotional descriptions",
+          "excerpt": "The following passages are retained verbatim from the original essay. Their functional lines are illustrations, not complete definitions or conformance tests. Their emotional language expresses intended qualities, not feelings that a designer can assign to every user. In particular, “all assistive technologies” expresses an aspiration; evidence must identify",
+          "matched_text": "intended qualities",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+        "commit": "0410091af93053783ff8594f4404be1bf721f407",
+        "path": "The WCAG POUR principles reframed through emotional outcomes for branding systems.md",
+        "blob_sha": "79181b0748799d134ef1aed79f2ff97c828d6a39",
+        "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/The%20WCAG%20POUR%20principles%20reframed%20through%20emotional%20outcomes%20for%20branding%20systems.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 5,
+          "heading": "**Feeling** — reframing the WCAG POUR principles for Brand Management - these are universal",
+          "excerpt": "## **Feeling** — reframing the WCAG POUR principles for Brand Management - these are universal",
+          "matched_text": "these are universal",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  },
+  {
+    "id": "D04",
+    "title": "CP identifiers have more than one namespace",
+    "finding": "The Cognitive UX source uses CP-01–CP-10; the POURS outcome crosswalk uses CP01-style labels; the EN matrix also has a CP row meaning difficulty distinguishing colours. Bare CP is therefore ambiguous across repositories.",
+    "proposal": "Use CP-01–CP-10 with a named Cognitive UX source in new cross-repository references. Record encountered aliases only within that scope. Keep the EN profile code unchanged and identify its owning matrix.",
+    "sources": [
+      {
+        "repository": "Double-FW/Cognitive-UX-Design",
+        "commit": "34d2e3cd2eb4a92409b198338f155fa42e0ba9ed",
+        "path": "Cognitive Design Principles.md",
+        "blob_sha": "8f8b9ccd83786c231851dec353a638d953f13083",
+        "url": "https://github.com/Double-FW/Cognitive-UX-Design/blob/34d2e3cd2eb4a92409b198338f155fa42e0ba9ed/Cognitive%20Design%20Principles.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 9,
+          "heading": "10 Cognitive Design Principles",
+          "excerpt": "The CP-01–CP-10 references match this document’s unchanged source order and the existing QA matrix. This revised draft clarifies substantive points; see the [changelog](CHANGELOG.md). No independent review, publication or product conformity is implied.",
+          "matched_text": "CP-01",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+        "commit": "0410091af93053783ff8594f4404be1bf721f407",
+        "path": "Satisfactory_Customer_Experience_Outcomes.md",
+        "blob_sha": "72796af1e04d775e805357a403017e19b7759a4b",
+        "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/Satisfactory_Customer_Experience_Outcomes.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 41,
+          "heading": "Cognitive UX connections",
+          "excerpt": "| CP01: standard elements | Familiar controls and consistent states support navigation and resumption |",
+          "matched_text": "CP01",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/EU-Web-Accessibility-Directive_EN301549",
+        "commit": "50dd952007ce8642b338c991616a8c3eadf80fb4",
+        "path": "EN301549_Requirements_Test_Matrix.md",
+        "blob_sha": "bc8c6daaf9070b3a0664e7e19bc3c6b1e84e0ed7",
+        "url": "https://github.com/Double-FW/EU-Web-Accessibility-Directive_EN301549/blob/50dd952007ce8642b338c991616a8c3eadf80fb4/EN301549_Requirements_Test_Matrix.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 37,
+          "heading": "User groups and required outcomes",
+          "excerpt": "| CP | Difficulty distinguishing colours | Meaning through text, shape and other cues |",
+          "matched_text": "| CP |",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  },
+  {
+    "id": "D05",
+    "title": "ACT rules, ACT-style procedures and user scripts",
+    "finding": "QA supplies a locally structured ACT-style test system, while programme guidance calls for user ACT-style scripts. The W3C ACT work has its own rules format and rule status. These labels must not imply equal scope or external approval.",
+    "proposal": "Use W3C ACT when that is the actual reference, ACT-style procedural test for local structured procedures, and user-oriented task script for the relevant complete activity. Check existing labels in their own contexts before migration.",
+    "sources": [
+      {
+        "repository": "Double-FW/QA_Accessibility_Testing",
+        "commit": "38602fc4ab48302649673d0524afc48d0a21a2a1",
+        "path": "Accessibility_ACT-Style_Test_System.md",
+        "blob_sha": "42214b2851fc7ef5fb5c43f887a904f57c249c13",
+        "url": "https://github.com/Double-FW/QA_Accessibility_Testing/blob/38602fc4ab48302649673d0524afc48d0a21a2a1/Accessibility_ACT-Style_Test_System.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 2,
+          "heading": "Accessibility ACT-Style Test System",
+          "excerpt": "# Accessibility ACT-Style Test System",
+          "matched_text": "ACT-style",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/Accessibility_Programme_Runbooks",
+        "commit": "a8ec268b29e6f8612c958b183b9d33ab0747efa7",
+        "path": "framework/design-and-brand-systems.md",
+        "blob_sha": "4fed30ed0fe68c4f09a020022ae68b0b41f6c1db",
+        "url": "https://github.com/Double-FW/Accessibility_Programme_Runbooks/blob/a8ec268b29e6f8612c958b183b9d33ab0747efa7/framework/design-and-brand-systems.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 9,
+          "heading": "Plan the systems before dependent delivery",
+          "excerpt": "At P05, require a linked assurance plan before dependent design, code, content or procurement commitments. At P06, preserve traceability through implementation and content production. At P07, evaluate the actual foundations, patterns/components and complete journeys. At P08, retain gaps and departures in the authorised decision. At P09, maintain ownership, a",
+          "matched_text": "ACT",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  },
+  {
+    "id": "D06",
+    "title": "Robustness, reliability and Feeling Safe",
+    "finding": "The AI Act delivery guide explicitly distinguishes AI Act robustness from WCAG robustness. POURS uses Feeling Safe as an emotional lens with a separate warning that reassurance does not establish security.",
+    "proposal": "Adopt the owner-supplied Agentic Robustness definition as a distinct Double-FW definition, retaining WCAG robustness as its separate source-owned term.",
+    "sources": [
+      {
+        "repository": "Double-FW/EU-AI-Act-accessibility-disability-rights-and-delivery",
+        "commit": "fa03e1a293aee1fb9088c53e67e8651775bdbb85",
+        "path": "docs/accessibility-delivery.md",
+        "blob_sha": "deba9f5d7ee321cf57545d2bb594b7d291c028f5",
+        "url": "https://github.com/Double-FW/EU-AI-Act-accessibility-disability-rights-and-delivery/blob/fa03e1a293aee1fb9088c53e67e8651775bdbb85/docs/accessibility-delivery.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 89,
+          "heading": "AC06 — Choose methods appropriate to the surface",
+          "excerpt": "AI Act robustness and WCAG robustness have related but different meanings. Reliable semantics/accessibility APIs support assistive technologies and some agents. Article 15 addresses accuracy, resilience and cybersecurity. No general requirement to expose an MCP server or unrestricted agent access is asserted.",
+          "matched_text": "AI Act robustness",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+        "commit": "0410091af93053783ff8594f4404be1bf721f407",
+        "path": "POURS_Access_Experience_and_Brand_Promise.md",
+        "blob_sha": "a07d54a9b29bbe0c6303e06996cf27af147d61ab",
+        "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/POURS_Access_Experience_and_Brand_Promise.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 27,
+          "heading": "The relationship between POUR and POURS",
+          "excerpt": "These are related, but none proves the others. A participant can feel reassured while a security flaw remains. A technically accessible task can still be exhausting. A failed journey can still contain a respectful support interaction. Keep each finding visible.",
+          "matched_text": "security flaw",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "source_type": "owner_contribution",
+        "path": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md",
+        "url": "frameworks/Agentic_Robustness_and_LGIR_User_Proposal.md#agentic-robustness-definition",
+        "content_sha256": "89a365aa62821145bb8ef988b3c565b7cd06f43b6534c388db7e24473c17e5b5",
+        "relationship": "owner_supplied_definition",
+        "received": "2026-11-20"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Agentic Robustness definition text only. LGIR, detailed guidelines, level labels and editorial notes remain framework proposals, not validated requirements.",
+    "original_proposal": "Qualify the domain and retain separate compatibility, reliability/security and participant-experience findings. The glossary should not create a new legal definition of AI robustness.",
+    "approved_definition": "Agentic systems, their underlying data, and their human-facing interfaces must be resilient, transparent, and interoperable enough to operate reliably across diverse models, shifting contexts, and human oversight mechanisms, both now and as capabilities evolve.",
+    "approved_term_ids": [
+      "DFW-T0157"
+    ],
+    "approved_fields": [
+      "definition"
+    ]
+  },
+  {
+    "id": "D07",
+    "title": "Evidence, status and human authority",
+    "finding": "The policy guidance separates applicable duties, approved commitments, verified practice and proposals. QA and maturity examples also distinguish actual evidence from prepared or fictional records. Source words such as validated and approved need a stated object and scope.",
+    "proposal": "Keep observation, estimate, hypothesis, synthetic example, proposal and approval distinct. Preserve unknown, not tested and not applicable as different states. Never infer approval from a template, Git merge or a new export date.",
+    "sources": [
+      {
+        "repository": "Double-FW/Inclusion-and-Accessibility-Policy",
+        "commit": "66fa7132f2c38fbd13c629bf8c1b1dffbafb522d",
+        "path": "README.md",
+        "blob_sha": "eae59b70d2f1902749257e8f0df046e1cfbe7d64",
+        "url": "https://github.com/Double-FW/Inclusion-and-Accessibility-Policy/blob/66fa7132f2c38fbd13c629bf8c1b1dffbafb522d/README.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 33,
+          "heading": "Sources, scope and decisions",
+          "excerpt": "Applicable law and contracts, approved commitments, verified practice, approved future activity and proposals have different authority. Double-FW sources are secondary practitioner guidance; they cannot determine an organisation's legal applicability. Inspect current primary sources and actual national/sector facts before a consequential conclusion, retainin",
+          "matched_text": "different authority",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/AI-Accessibility-Maturity-Model",
+        "commit": "c2da391d266f2c4bb73160a90f9d2703c1d8f683",
+        "path": "WORKED_ASSESSMENT_EXAMPLES.md",
+        "blob_sha": "c5172dd43bf4960fa1040e944fcdf3b51057ecff",
+        "url": "https://github.com/Double-FW/AI-Accessibility-Maturity-Model/blob/c2da391d266f2c4bb73160a90f9d2703c1d8f683/WORKED_ASSESSMENT_EXAMPLES.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 11,
+          "heading": "Worked assessment and challenge cases",
+          "excerpt": "All organisations, artefacts, people/roles, findings and decisions in this document are **fictional**. These are author-prepared desk cases to exercise the method, not actual assessments, human reviewer calibration, research findings or validation of real effectiveness. Independent assessors should first interpret the cases separately and then compare their ",
+          "matched_text": "fictional",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/QA_Accessibility_Testing",
+        "commit": "38602fc4ab48302649673d0524afc48d0a21a2a1",
+        "path": "Mobile_Application_and_Website_Test_Library.md",
+        "blob_sha": "93e7a64566174ca417fe51d6500c738d59f1f661",
+        "url": "https://github.com/Double-FW/QA_Accessibility_Testing/blob/38602fc4ab48302649673d0524afc48d0a21a2a1/Mobile_Application_and_Website_Test_Library.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 26,
+          "heading": "Turn a selected entry into a local procedure",
+          "excerpt": "Version and review local procedures before execution. Do not label an unexecuted procedure as a result. Restore provenance only from inspected evidence; do not substitute a plausible URL for an unknown source. Add entry-specific procedures progressively as services require them.",
+          "matched_text": "unexecuted",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  },
+  {
+    "id": "D08",
+    "title": "Double-FW meanings and externally owned requirements",
+    "finding": "The POURS guide says its extension does not amend WCAG. The policy repository distinguishes Double-FW secondary guidance from legal-applicability determination. An internal preference cannot silently change an external meaning.",
+    "proposal": "Use approved Double-FW meanings for Double-FW methodologies, explaining disagreements with external approaches. Preserve source-owned meanings when quoting standards or legal terms. Resolve actual applicability with current primary sources and appropriate expertise.",
+    "sources": [
+      {
+        "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+        "commit": "0410091af93053783ff8594f4404be1bf721f407",
+        "path": "POURS_Access_Experience_and_Brand_Promise.md",
+        "blob_sha": "a07d54a9b29bbe0c6303e06996cf27af147d61ab",
+        "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX/blob/0410091af93053783ff8594f4404be1bf721f407/POURS_Access_Experience_and_Brand_Promise.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 17,
+          "heading": "The relationship between POUR and POURS",
+          "excerpt": "POURS retains those four foundations and proposes **Satisfactory** as an additional Double FW experience principle. It does not amend WCAG. Satisfactory asks whether the experience meets the person’s needs and reasonable expectations while preserving dignity, identity and control. Expectations are evidence to investigate, not a ceiling: a customer accustomed",
+          "matched_text": "does not amend WCAG",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      },
+      {
+        "repository": "Double-FW/Inclusion-and-Accessibility-Policy",
+        "commit": "66fa7132f2c38fbd13c629bf8c1b1dffbafb522d",
+        "path": "README.md",
+        "blob_sha": "eae59b70d2f1902749257e8f0df046e1cfbe7d64",
+        "url": "https://github.com/Double-FW/Inclusion-and-Accessibility-Policy/blob/66fa7132f2c38fbd13c629bf8c1b1dffbafb522d/README.md",
+        "relationship": "supporting_context_not_verbatim_definition",
+        "source_review": "public_blob_verified; not_independently_validated",
+        "usage_evidence": {
+          "line": 33,
+          "heading": "Sources, scope and decisions",
+          "excerpt": "Applicable law and contracts, approved commitments, verified practice, approved future activity and proposals have different authority. Double-FW sources are secondary practitioner guidance; they cannot determine an organisation's legal applicability. Inspect current primary sources and actual national/sector facts before a consequential conclusion, retainin",
+          "matched_text": "secondary practitioner guidance",
+          "role": "usage_or_context_evidence; not approval of proposed definition"
+        }
+      }
+    ],
+    "status": "approved",
+    "approved_by": "Gareth Ford Williams",
+    "approval_date": "2026-11-20",
+    "scope": "proposed shared terminology; no automatic source migration",
+    "previous_status": "open_for_owner_review",
+    "approval_evidence": "review/OWNER_DECISIONS_2026-11-20.md",
+    "approval_scope": "Proposed terminology resolution only; not blanket approval of all glossary entry wording or source frameworks.",
+    "approved_term_ids": [],
+    "approved_fields": []
+  }
+]
