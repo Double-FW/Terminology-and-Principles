@@ -33,3 +33,11 @@ Original material is MIT under [LICENSE](LICENSE). Read [NOTICE](NOTICE.md) for 
 ## Hugging Face publication
 
 The destination is [Accessibility and Inclusion Principles, Concepts and Terminology](https://huggingface.co/datasets/GarethFW/Accessibility_and_Inclusion_Principles_Concepts_and_Terminology). Read [the step-by-step setup](huggingface/SETUP.md). The export preserves canonical records, review states, approval scope and required context. It does not duplicate the generated glossary pages, scan other repositories for changes, approve definitions or train a model.
+
+## About the author
+
+Gareth Ford Williams is a senior leader in accessibility and inclusive design and co-founder of Double FW Ltd. His work spans accessibility, UX, technical standards, assistive technology and inclusive media. At the BBC, he led accessibility and UX work and chaired standards governance, translating research and policy into practical guidance.
+
+## About Double FW Ltd
+
+Double FW Ltd is a UK accessibility and inclusive design consultancy. It helps organisations build accessibility into strategy, governance, brands, products, content and services. Its public repositories provide practical guidance for people and AI-assisted workflows.
